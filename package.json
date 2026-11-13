@@ -1,0 +1,31 @@
+{
+  "name": "tierras-partidas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit",
+    "sim": "tsx scripts/sim.ts",
+    "follow-test": "tsx scripts/follow-test.ts",
+    "locks-test": "tsx scripts/locks-test.ts",
+    "tactics-test": "tsx scripts/tactics-test.ts",
+    "reaper-test": "tsx scripts/reaper-test.ts",
+    "walls-test": "tsx scripts/walls-test.ts",
+    "terrain-test": "tsx scripts/terrain-test.ts",
+    "auto-test": "tsx scripts/auto-test.ts",
+    "throne-test": "tsx scripts/throne-test.ts",
+    "story-test": "tsx scripts/story-test.ts",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "5.9",
+    "vite": "^7.3.7"
+  }
+}
